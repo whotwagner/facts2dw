@@ -1,4 +1,7 @@
-#facts2dw.rb
+> [!WARNING]  
+> This repository has been moved to [https://codeberg.org/whotwagner/facts2dw](https://codeberg.org/whotwagner/facts2dw). Please visit the new location for the latest updates.
+
+# facts2dw.rb
 Simple script which converts ansible facts into dokuwiki-format and uploads it via xmlrpc-interface into dokuwiki			  
     								  
 This script uses http-basic-authentication and ssl to login into dokuwiki. Ansible caches all the facts in <ANSIBLE-DIR>/facts so it is quite easy to import all facts into dokuwiki using the following line: 
